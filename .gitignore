@@ -10,8 +10,9 @@ env/
 ENV/
 
 # Model files (large)
-out/model.safetensors
-out/*.safetensors
+*.safetensors
+out/
+out_stress_ft/
 
 # IDE
 .vscode/
